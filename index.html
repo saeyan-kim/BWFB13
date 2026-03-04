@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Biweekly<br>Finance<br>Briefing</title>
+    <style>
+        body {
+            background: #F5EBE1;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #1E1928;
+        }
+        img.header-logo {
+            width: 320px;
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .tab {
+            overflow: hidden;
+            margin-bottom: 0;
+        }
+        .tab button {
+            background-color: #ffffff;
+            float: left;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            border-radius: 8px 8px 0 0;
+            outline: none;
+            cursor: pointer;
+            padding: 16px 32px;
+            font-size: 17px;
+            font-weight: bold;
+            color: #555055;
+            transition: 0.3s;
+            min-width: 180px;
+        }
+        .tab button:hover {
+            background-color: #F5EBE1;
+        }
+        .tab button.active {
+            background-color: #F54B1E;
+            color: white;
+        }
+        .tabcontent {
+            display: none;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .accordion {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            padding: 14px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            font-size: 1.05em;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+        .accordion:hover {
+            background-color: #f1f1f1;
+        }
+        .brief {
+            font-size: 0.95em;
+            color: #555055;
+            margin: 4px 0 8px 0;
+            padding-left: 10px;
+        }
+        .panel {
+            padding: 0 18px 8px 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+            border-left: 3px solid #F54B1E;
+            margin-bottom: 10px;
+        }
+        a {
+            color: black;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+
+    
+    
+<div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: 20px; margin-bottom: 40px; flex-wrap: wrap;">
+    <div style="flex-grow: 1;">
+        <img src="https://raw.githubusercontent.com/saeyan-kim/BWFB/main/Yanolja_CMYK_Logo_Orange.png" alt="Yanolja Logo" style="height: 36px; margin-bottom: 16px;">
+        <div style="font-size:2.4em; border-left: 8px solid #FF4F6E; padding-left: 16px; color: #333; line-height: 1.2; font-weight: bold;">
+            Biweekly Finance Briefing
+        </div>
+    </div>
+    <div style="font-size: 0.95em; color: #555; text-align: right; min-width: 120px; margin-bottom: 6px; font-family: Georgia, serif;">
+        March 4, 2026
+    </div>
+</div>
+
+    
+
+<div class="tab">
+<button class="tablinks" onclick="openTab(event, 'Quiz')">Quiz</button>
+<button class="tablinks" onclick="openTab(event, 'GAAP')">GAAP</button>
+<button class="tablinks" onclick="openTab(event, 'GAAS')">GAAS</button>
+<button class="tablinks" onclick="openTab(event, 'Tax')">Tax</button>
+<button class="tablinks" onclick="openTab(event, 'D&C')">D&C</button>
+<button class="tablinks" onclick="openTab(event, 'Notice')">Notice</button>
+</div>
+
+
+<div id="Quiz" class="tabcontent">
+<h2>정답 및 해설</h2>
+
+<button class="accordion">Q1. 올해 법인세 신고 시 요건이 강화되어, 공제를 받기 위해 '상시근로자 명세서'를 반드시 추가 제출하도록 개정된 제도는?</button>
+<div class="brief">① 창업중소기업 세액감면 ② 연구·인력개발비 세액공제 ③ 통합고용세액공제</div>
+<div class="panel">
+<p>정답 : ③ 통합고용세액공제</p>
+<p>이번 법인세 신고부터 <strong>통합고용세액공제</strong> 신청 시 상시근로자 명세서 제출이 의무화되었습니다.</p>
+</div>
+
+<button class="accordion">Q2. 상법 개정에 따른 '자사주 의무 소각' 시, 지주사들에게 부과되어 큰 논란이 되고 있는 세금은?</button>
+<div class="brief">① 취득세 ② 법인세 ③ 증권거래세</div>
+<div class="panel">
+<p>정답 : ② 법인세</p>
+<p>M&A 등에서 취득해 과세가 이연됐던 '비자발적 자사주'마저 강제로 소각해야 하면서, 소각 시점 주가와 최초 취득가의 차액이 이익으로 잡혀 막대한 <strong>법인세</strong>가 부과됩니다.</p>
+</div>
+
+
+</div>
+
+
+<div id="GAAP" class="tabcontent">
+<h2>GAAP</h2>
+
+
+<button class="accordion">주가 올랐는데 실적엔 마이너스?…"회계상 실적 왜곡"</button>
+<div class="brief">주가 상승이나 환율 급등으로 인해 전환사채(CB) 등 파생상품의 장부상 부채 가치가 커지면서, 실제 현금 유출 없이도 기업 실적에 대규모 평가손실이 반영되는 '회계상 실적 왜곡' 현상이 속출하고 있습니다.</div>
+<div class="panel">
+<p>최근 엘앤에프, 지니너스 등 여러 상장사가 본업에서의 실적 개선과 주가 상승에도 불구하고 대규모 파생상품 평가손실을 공시하며 순손실 폭이 확대되었습니다. 이는 한국채택국제회계기준(K-IFRS)에 따라 전환사채(CB)나 신주인수권부사채(BW) 등 주식연계채권이 금융부채로 분류되어, 주가가 오를수록 회사가 부담해야 할 부채의 공정가치가 커져 그 차액이 평가손실로 반영되기 때문입니다. 또한 주가뿐만 아니라 지난해 급등한 환율 변동성으로 인해 통화선도 거래에서도 상당수 기업이 장부상 손실을 기록했습니다. 비록 실제 현금 유출이 동반되지 않는 회계적 착시라 하더라도, 전문가들은 기업들이 환 리스크 관리 전략과 자금 조달 구조를 전반적으로 점검할 필요가 있다고 지적합니다.</p>
+<a href="https://www.edaily.co.kr/News/Read?newsId=04441126645348880&mediaCodeNo=257&OutLnkChk=Y" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">금융당국 중징계→무혐의…일양, 회계 위반 누명 벗은 이유는</button>
+<div class="brief">검찰은 일양약품이 중국 합자법인을 종속회사로 편입한 사안을 고의적인 장부 조작이 아닌 회계기준(K-IFRS) 해석의 문제로 판단하여, 회계처리 위반 및 외부감사 방해 의혹에 대해 무혐의 처분을 내렸습니다.</div>
+<div class="panel">
+<p>수원지검은 일양약품의 회계처리 위반 및 외부감사 방해 의혹에 대해 형사상 고의성과 객관적 증거가 부족하다며 무혐의 및 공소권 없음 처분을 내렸습니다. 검찰은 핵심 쟁점이었던 중국 합자법인(통화일양, 양주일양)의 연결재무제표 편입을 '실질적 지배력'에 대한 해석 차이로 보았으며, 투자자를 기망하기 위한 허위 사실 기재나 조직적인 서류 위조는 없었다고 결론지었습니다. 이번 처분으로 일양약품은 현재 정지된 주식 매매거래의 재개 논의에 속도를 낼 수 있게 되었습니다. 다만, 과거 재무제표 수정에 따른 실적 감소와 더불어 법률자문 비용 및 과징금 부과 등 일회성 비용이 반영되면서 지난해 영업이익은 전년 대비 53% 감소했습니다.</p>
+<a href="https://new.dailypharm.com/user/news/335423?REFERER=NP" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">회계·감사·세무 대수술 원년… 기업 재무제표 읽는 법이 바뀐다</button>
+<div class="brief">올해부터 보험계약 및 전력구매계약(PPA)에 대한 회계처리 및 공시 기준이 깐깐해지며, 2027년부터는 손익계산서상 '영업손익'의 개념이 전면 재정의되는 등 기업의 재무보고 체계가 투명성을 강화하는 방향으로 크게 변화합니다.</div>
+<div class="panel">
+<p>올해부터 새롭게 적용되는 K-IFRS 개정안에 따라, 보험사는 보험계약부채 산정 시 적용한 자체 추정기법의 근거와 그것이 재무에 미치는 영향을 주석에 상세히 공시해야 합니다. 또한 기업들의 전력구매계약(PPA) 회계처리를 명확히 하여 '자가사용 예외' 판단 기준을 구체화하고, 관련 약정 규모와 미래현금흐름 추정치 등의 공시 의무도 추가했습니다. 특히 파급력이 큰 K-IFRS 제1118호가 2027년 도입되면 손익계산서 구조가 개편되어, 기존의 '영업손익'이 투자와 재무 범주에 속하지 않는 잔여 손익으로 완전히 재정의됩니다. 이와 함께 기업이 임의로 활용하던 '조정 영업이익' 등의 자체 성과지표 역시 산출 근거를 의무적으로 밝혀야 하므로, 기업의 회계적 재량권이 대폭 축소될 전망입니다.</p>
+<a href="https://www.newsroad.co.kr/news/articleView.html?idxno=54244" target="_blank">원문 보기</a>
+</div>
+
+
+
+</div>
+
+
+<div id="GAAS" class="tabcontent">
+<h2>GAAS</h2>
+
+
+<button class="accordion">금융위 "회계부정 지시자 최대 5년간 상장사 임원 제한"</button>
+<div class="brief">금융위원회가 회계부정 임원 및 실질적 지시자까지 제재하는 '회계·감사 품질 제고방안'을 발표했습니다.</div>
+<div class="panel">
+<p>금융위원회 산하 증권선물위원회가 회계투명성 제고를 위한 강력한 제도 개편안을 내놓았습니다. 가장 핵심적인 내용은 고의적 회계부정을 지시하거나 주도한 임원(실질적 지시자 포함)에 대해 향후 5년 동안 모든 국내 상장사의 임원으로 취업할 수 없도록 제한한 것입니다. 또한 감사인이 합리적 이유 없이 감사 시간을 현저히 적게 투입한 경우, 감사인과 회사 모두를 감리 대상으로 우선 선정하기로 했습니다.</p>
+<a href="https://www.yna.co.kr/view/AKR20260204082100002?input=1195m" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">2026년 감사인 지정방식 개편안 공개… 회계법인 '군 상향 특례' 신설</button>
+<div class="brief">품질이 우수한 중소 회계법인도 더 큰 규모의 기업을 감사할 수 있도록 감사인 군 분류체계에 '특례' 제도가 신설되었습니다.</div>
+<div class="panel">
+<p>2026년 감사인 지정방식 개편안에 따르면, 회계법인의 손해배상능력을 상향 조정하고 감사품질 중심의 특례 제도가 도입됩니다. 기존에는 규모가 작으면 큰 기업을 맡지 못하는 한계가 있었으나, 이제 품질평가가 우수할 경우 나군에서 가군으로, 다군에서 나군으로 상향 지정될 수 있습니다. 아울러 수습 회계사의 투입 가중치를 현실화하고 품질 평가 가감점을 강화하여 변별력을 높였습니다.</p>
+<a href="https://changeui.co.kr/sub/insight/news.php?mode=view&bid=6&s_type=&s_keyword=&s_cate=&idx=359&page=1" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">금융위, '회계·감사 품질 제고방안' 발표, 직무제한 규정 합리화 추진</button>
+<div class="brief">금융위원회는 회계감사 품질과 무관하게 회계사의 직무를 과도하게 제약해 온 배우자 근무관계 제한 등의 독립성 규제를 대폭 합리화했습니다.</div>
+<div class="panel">
+<p>금융위는 증선위를 통해 과도한 회계사 독립성 규제에 대한 개선안을 확정했습니다. 그동안 감사에 참여하지 않는 파트너(사원)의 배우자가 감사 대상 회사의 단순 직원인 경우까지 직무가 제한되었으나, 앞으로는 '재무 관련 임원'인 경우에만 감사가 제한됩니다. 또한 펀드 등 간접투자나 비자발적인 주식 취득의 경우 독립성 훼손 우려가 없다고 보고 규제 예외를 명확히 인정했습니다.</p>
+<a href="https://webzine.kicpa.or.kr/news/articleView.html?idxno=2486" target="_blank">원문 보기</a>
+</div>
+
+</div>
+
+
+<div id="Tax" class="tabcontent">
+<h2>Tax</h2>
+
+
+<button class="accordion">12월 결산법인 법인세 신고 3월 말까지…달라지는 세법은</button>
+<div class="brief">12월말 결산법인은 오는 3월 31일까지 법인세를 신고·납부해야 합니다. 올해 법인세 신고부터 통합고용세액공제 요건이 강화되는 등 주요 세법 개정 사항이 적용되므로 사전 확인이 필요합니다.</div>
+<div class="panel">
+<p>국세청은 오는 3월 31일 12월 결산법인의 법인세 신고·납부 기한을 앞두고 올해부터 적용되는 주요 세법 개정 사항을 안내했습니다. 창업중소기업 세액감면과 통합고용세액공제의 중복 적용이 전면 배제되며, 통합고용세액공제 신청 시 상시근로자 명세서 제출이 의무화되는 등 요건이 깐깐해졌습니다. 반면, 전통시장 소비 활성화를 위해 전통시장에서 지출한 기업업무추진비의 추가 손금산입 한도는 기존 10%에서 20%로 확대되었습니다.</p>
+<a href="https://www.joseilbo.com/news/htmls/2026/02/20260223563320.html" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">자사주 소각하면 '세금 폭탄'…지주사 초비상</button>
+<div class="brief">상법 개정으로 인수합병(M&A) 등 지배구조 개편 과정에서 취득한 '비자발적 자사주'까지 의무 소각 대상에 포함되면서, 국내 주요 지주사들이 경영권 방어 수단을 잃고 막대한 법인세 부담을 안게 되었습니다.</div>
+<div class="panel">
+<p>상장사의 자사주 의무 소각을 명시한 상법 개정이 이뤄지면서 국내 주요 그룹 지주사들에 비상이 걸렸습니다. 특히 인수합병이나 지주사 전환 과정에서 불가피하게 취득해 과세가 이연되었던 비자발적 자사주까지 18개월 내에 강제 소각해야 하며, 이 과정에서 발생하는 최초 취득가와 소각 시점 주가의 차액에 대해 법인세가 부과됩니다. 이로 인해 SK㈜는 5,000억 원을 웃도는 세금을 내야 할 것으로 추산되며, 롯데지주, HD현대, 한화 등도 비슷한 세금 폭탄 위기에 처했습니다. 재계와 전문가들은 기업의 핵심 자산 매각 등 유동성 위기를 막기 위해 자사주 강제 소각에 따른 처분 이익을 법인세 산정 시 제외해 주는 내용의 세법 개정 등 후속 조치가 시급하다고 지적하고 있습니다.</p>
+<a href="https://www.hankyung.com/article/202602279534r" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">“팩트체크? 조회 수만 나오면 그만” 거짓 정보를 유통하며 탈세를 일삼아 온 유튜버 세무조사</button>
+<div class="brief">국세청이 허위 정보 유포와 탈세 행위를 결합한 유튜버를 대상으로 세무조사에 착수했습니다.</div>
+<div class="panel">
+<p>국세청은 수익만을 좇아 거짓 정보를 유통하고 의도적인 탈세를 자행한 유튜버 16명을 대상으로 세무조사를 실시합니다. 세부 조사 대상은 타인을 비방하는 사이버 레커 3명, 투기와 탈세를 부추기는 부동산·세무 분야 유튜버 7명, 사회적 물의를 야기하는 허위·부적절 콘텐츠 유튜버 6명입니다. 이들은 후원금과 광고 수익을 장부에서 누락하고, 친인척 명의의 위장 법인으로 소득을 분산하거나 거짓 세금계산서를 주고받는 등 다양한 탈세 수법을 동원했습니다. 또한, 빼돌린 수익으로 고가의 명품과 외제차를 과시하거나, 법인카드를 자녀 학원비 및 사적 쇼핑에 무분별하게 사용하는 등 납세 의무를 훼손한 것으로 드러났습니다. 국세청은 이들의 숨겨진 수익을 찾아내기 위해 정밀한 금융추적을 실시하고, 조세범칙행위 적발 시 예외 없이 수사기관에 고발하는 등 엄정하게 대응할 계획입니다.</p>
+<a href="https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?bbsId=1028&mi=2201&nttSn=1349109" target="_blank">원문 보기</a>
+</div>
+
+
+</div>
+
+
+<div id="D&C" class="tabcontent">
+<h2>D&C</h2>
+
+
+<button class="accordion">금감원, 올해 사업보고서 중점 점검…내부 회계·자기주식 공시 강화</button>
+<div class="brief">금융감독원이 올해 기업 사업보고서 점검 시 내부회계관리제도와 자기주식, 중대재해 관련 공시의 충실도를 집중적으로 살펴보고 부실 기재 기업에 대해서는 엄중히 제재를 검토할 예정입니다.</div>
+<div class="panel">
+<p>금융감독원은 투자자에게 정확하고 충분한 정보를 제공하기 위해 올해 사업보고서 중점 점검 사항 17개 항목을 사전 예고했습니다. 주요 점검 대상에는 요약 재무정보, 내부회계관리제도 운영 보고서 및 감사인 의견 등 13개의 재무 항목과 자기주식 처리 계획, 중대재해 발생 여부 등 4개의 비재무 항목이 포함되었습니다. 금감원은 오는 5월에 사업보고서 점검을 실시한 뒤 6월 중 미흡 사항을 각 기업에 개별 통보할 계획입니다. 중요 사항을 부실하게 기재하거나 반복적으로 누락하는 기업은 향후 재무제표 심사 대상 선정에 반영되며, 사안에 따라 제재 조치도 받을 수 있습니다.</p>
+<a href="https://www.news1.kr/finance/financial-policy/6075299" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">주가조작·회계부정 내부고발 포상금 '한도 무제한'</button>
+<div class="brief">주가조작 및 회계부정 행위를 근절하기 위해 내부고발 신고 포상금의 상한선이 전면 폐지되고, 부당이득에 비례해 최대 30%까지 포상금이 무제한으로 지급됩니다.</div>
+<div class="panel">
+<p>금융위원회는 자본시장법 및 외부감사법 시행령 등을 개정하여, 기존에 존재했던 불공정거래(30억 원)와 회계부정(10억 원) 신고 포상금의 지급 상한을 전면 폐지한다고 밝혔습니다. 앞으로는 기존의 복잡한 산정 방식 대신 적발된 부당이득이나 과징금의 최대 30% 비율로 포상금이 단순화되어 산정됩니다. 또한, 부당이득 규모가 작더라도 신고 자체를 활성화하기 위해 일정 수준 이상의 기본 포상금(불공정거래 500만 원, 회계부정 300만 원)을 지급하는 내용도 포함되었습니다. 금융당국 외에 경찰청 등 다른 행정기관에 신고하더라도 쉽게 포상금을 받을 수 있도록 부처 간 협업도 강화할 계획입니다.</p>
+<a href="https://news.bizwatch.co.kr/article/market/2026/02/25/0035" target="_blank">원문 보기</a>
+</div>
+
+<button class="accordion">증선위, '회계처리 위반' 국보 과태료 및 감사인 지정 조치</button>
+<div class="brief">금융위원회 산하 증권선물위원회는 회계처리기준을 위반해 재무제표를 공시한 상장사 국보와, 이에 대한 감사 절차를 소홀히 한 외부감사인 신우회계법인에 대해 과태료 부과 및 감사업무 제한 등의 중징계를 내렸습니다.</div>
+<div class="panel">
+<p>증권선물위원회는 회계처리기준을 위반한 코스닥 상장사 국보에 대해 감사인 지정 2년과 과태료 3,600만 원 부과 등을 의결했습니다. 국보는 2019년 결산 과정에서 종속회사에 담보로 제공한 지급어음을 부당하게 대여금으로 계상하고, 적절한 검토 없이 대손충당금을 설정해 대손상각비를 과대계상한 혐의를 받습니다. 또한 전환사채(CB) 및 신주인수권부사채(BW) 관련 선급비용을 부풀려 자기자본을 173억여 원 과대계상하고, 이를 바탕으로 소액공모서류를 거짓으로 기재한 사실도 적발되었습니다. 한편, 국보의 외부감사인이었던 신우회계법인과 소속 회계사 역시 위반 사항을 짚어내지 못하고 감사를 소홀히 한 책임으로 손해배상공동기금 추가 적립 및 국보 등에 대한 감사업무 제한 조치를 받았습니다.</p>
+<a href="https://www.joseilbo.com/news/htmls/2026/02/20260226563541.html" target="_blank">원문 보기</a>
+</div>
+
+
+</div>
+
+
+<div id="Notice" class="tabcontent">
+  <h2>Notice</h2>
+  <p>다음 업데이트는 2주 후 발송됩니다.</p>
+    
+</div>
+
+<script>
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementsByClassName("tablinks")[0].click();
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+});
+</script>
+
+</body>
+</html>
